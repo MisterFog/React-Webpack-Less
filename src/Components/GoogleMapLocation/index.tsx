@@ -10,7 +10,7 @@ const GooogleMapLocation = (props: any) => {
   return(
     <div style={{ height: '60vh', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyB6FX5TKT000tztt_lLeX7tRtivWP6yr6s' }}
+          bootstrapURLKeys={{ key: 'your_key' }}
           defaultCenter={center}
           defaultZoom={zoom}
         >
