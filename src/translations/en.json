@@ -1,0 +1,7 @@
+{  
+  "siteWithCount": " {{count}} site",
+  "siteWithCount_plural": " {{count}} sites",
+  "login": {
+      "title": "Login to the system"
+  }
+}

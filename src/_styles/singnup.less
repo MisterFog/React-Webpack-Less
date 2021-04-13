@@ -1,0 +1,114 @@
+.ibb-singnup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+
+  h4 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 0;
+  }
+
+  .ibb-singnup__content{
+    display: flex;
+    width: 100%;    
+
+    .ibb-singnup__form {     
+      max-width: 530px;
+      width: 50%;
+      height: fit-content;
+      padding: 40px 90px;
+      background-color: white;
+      margin-left: auto;
+      position: relative;
+
+      .ibb-formik .ibb-singnup__edit{
+          width: fit-content;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      p {
+        text-align: center;
+        font-size: 15px;
+      }
+
+      .ibb-singnup__sosials{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        div{
+          width: fit-content;
+
+          .ibb-singnup__sosial-btn{
+            all: unset;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            color: white;
+            padding: 6px 8px;
+            margin: 0 15px;
+            cursor: pointer;
+
+            span{
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+
+      .ibb-singnup__agreement{
+        width: 60%;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0);
+      }
+    }
+
+    .ibb-singnup__advantages{
+      width: 40%;
+      margin: 0 auto 0 10%;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      .ibb-singnup__advantag-element::before{
+        margin-right: 24px;
+        height: 70px;
+        width: 70px;
+        content: '';
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='35' cy='35' r='35' fill='%23E0E0E0'/%3E%3C/svg%3E%0A");
+      }
+
+      .ibb-singnup__advantag-element{        
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+
+        .ibb-singnup__advantag-content{
+          width: 50%;
+        }
+      }
+    }
+  }
+  
+}
